@@ -1,0 +1,55 @@
+.skills-container {
+    padding: 20px;
+    max-width: 100%; /* Ensure container doesn't overflow */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+  }
+  
+  .skills-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em; /* Increase the font size for emphasis */
+    color: #2c3e50; /* Darker color for the title */
+  }
+  
+  .skills-list {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid with min width */
+    gap: 15px; /* Space between skill items */
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .skill-name {
+    font-size: 1.2em; /* Increase font size for skill names */
+    color: #34495e; /* Slightly lighter color for skill items */
+    margin-bottom: 5px; /* Space between skill name and bar */
+  }
+  
+  .skill-bar-container {
+    background-color: #e0e0e0; /* Light gray background for the bar */
+    border-radius: 5px;
+    overflow: hidden; /* Ensure bars don't overflow their container */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  }
+  
+  .skill-bar {
+    background: linear-gradient(90deg, #3498db, #8e44ad); /* Gradient from blue to purple */
+    color: white; /* Text color inside the bar */
+    text-align: center;
+    line-height: 25px; /* Center text vertically */
+    height: 25px; /* Height of the skill bar */
+    transition: width 0.5s; /* Smooth transition for width */
+    border-radius: 5px 0 0 5px; /* Rounded left corners for skill bar */
+  }
+  
+  .skill-percentage {
+    font-size: 0.9em; /* Smaller font for percentage */
+    position: relative; /* Position relative for absolute child */
+    top: -25px; /* Move the percentage above the bar */
+    left: 5px; /* Slight left offset */
+    color: #2c3e50; /* Darker color for percentage text */
+  }
+  

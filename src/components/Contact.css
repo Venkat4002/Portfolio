@@ -1,0 +1,30 @@
+.contact-container {
+  max-width: 600px; /* Set a max width for the contact form */
+  margin: auto; /* Center the form */
+  padding: 20px;
+  border: 1px solid #ccc; /* Optional: Add a border */
+  border-radius: 10px; /* Optional: Round corners */
+  background: #f9f9f9; /* Optional: Background color */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form elements */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding inside the input */
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 5px; /* Round corners */
+}
+
+button.btn {
+  margin-top: 10px; /* Space above the button */
+}

@@ -1,0 +1,98 @@
+/* Basic page styling */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Home container */
+.home-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-image: url('../assets/background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Parallax effect */
+}
+
+/* Panel style */
+.panel {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 1s ease-in-out;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+}
+
+.panel-left {
+  left: 0;
+  transform: translateX(-100%);
+}
+
+.panel-right {
+  right: 0;
+  transform: translateX(100%);
+}
+
+.home-container:hover .panel-left {
+  transform: translateX(0);
+}
+
+.home-container:hover .panel-right {
+  transform: translateX(0);
+}
+
+/* Text inside the panels */
+.panel-title {
+  font-size: 3em;
+  color: #ecf0f1; /* Lighter color for better contrast */
+  margin: 0;
+}
+
+.panel-subtitle, .panel-description {
+  font-size: 1.5em;
+  color: #ecf0f1; /* Consistent text color */
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .panel-title {
+    font-size: 2em; /* Reduce title font size on smaller screens */
+  }
+
+  .panel-subtitle, .panel-description {
+    font-size: 1.2em; /* Adjust font size for subtitles */
+  }
+
+  .panel {
+    width: 100%; /* Panels take up full width on smaller screens */
+    height: 50%;
+    transform: translateY(50%); /* Adjust translation for vertical sliding effect */
+  }
+
+  .panel-left {
+    transform: translateX(-100%);
+  }
+
+  .panel-right {
+    transform: translateX(100%);
+  }
+
+  .home-container:hover .panel-left, .home-container:hover .panel-right {
+    transform: none;
+  }
+}
