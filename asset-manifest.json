@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.acbb9130.css",
+    "main.js": "/portfolio/static/js/main.7d4dfd53.js",
+    "static/js/453.acca0757.chunk.js": "/portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/Main.JPG": "/portfolio/static/media/Main.bf7e80d652ff9c8cf762.JPG",
+    "static/media/volleyball.png": "/portfolio/static/media/volleyball.93bdbd7e38ae35c674eb.png",
+    "static/media/Badminton.webp": "/portfolio/static/media/Badminton.6d442b68d1691cf35a22.webp",
+    "static/media/basketball.png": "/portfolio/static/media/basketball.2773ce87216e0385dc41.png",
+    "static/media/photo3.jpeg": "/portfolio/static/media/photo3.926e030765d5574a7879.jpeg",
+    "static/media/photo2.jpeg": "/portfolio/static/media/photo2.0d4225e8e721e52d6f57.jpeg",
+    "static/media/photo5.jpeg": "/portfolio/static/media/photo5.293bc9e7e2bc8f0230eb.jpeg",
+    "static/media/Cricket.webp": "/portfolio/static/media/Cricket.0e91f87f8ad42edcb172.webp",
+    "static/media/photo4.jpeg": "/portfolio/static/media/photo4.889bdd4abca62a3259fe.jpeg",
+    "static/media/photo1.jpeg": "/portfolio/static/media/photo1.4a702aa4e685e010dd57.jpeg",
+    "static/media/background-image.jpg": "/portfolio/static/media/background-image.ca3f776ec739919b0667.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.acbb9130.css.map": "/portfolio/static/css/main.acbb9130.css.map",
+    "main.7d4dfd53.js.map": "/portfolio/static/js/main.7d4dfd53.js.map",
+    "453.acca0757.chunk.js.map": "/portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acbb9130.css",
+    "static/js/main.7d4dfd53.js"
+  ]
+}
